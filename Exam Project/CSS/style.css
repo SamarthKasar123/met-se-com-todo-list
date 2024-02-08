@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#upperpart{
+    height: 50vh;
+    width: 95vw;
+    background-size: cover;
+    background-image: url(/sergei-a--heLWtuAN3c-unsplash.jpg);
+    margin: 30px;
+    margin-right: 15px;
+    border-radius: 20px;
+}
+#upperpart button{
+    color: white;
+    font-weight: bolder;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border: white;
+    border-radius: 30px ;
+    background-color: #367BF5;
+    position: relative;
+    top: 135px;
+    left: 250px;
+}
+#upperpart h1{
+    font-stretch: wider;
+    color: white;
+    font-weight: bolder;
+    position: relative;
+    top: 90px;
+    left: 740px;
+    font-size: 50px;
+
+}
+#lowerpart{
+    height: 60vh;
+    width: 60vw;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0 0 4rem grey;
+    position: relative;
+    left: 250px;
+    bottom: 150px;
+    border: 15px;
+    
+}
+#first{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+#logo{
+    color: red;
+    background: transparent;
+}
+#blue{
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 10px;
+    background-color:  #367BF5;
+    color: white;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+#red{
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 10px;
+    background-color:  #EA3D2F;
+    color: white;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+#green{
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 10px;
+    background-color:  #2FA84F;
+    color: white;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.popme{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.58);
+    position: fixed;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#popup{
+        height: 300px;
+        width:400px;
+        background-color: white;
+       
+        border-radius: 20px;
+        box-shadow: 0 0 3rem wheat;
+}
+#name{
+    margin-left: 90px;
+    padding-top: 20px;
+}
+#name input{
+    border: 2px solid #367BF5;
+    padding: 8px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: #C481FF;
+}
+#description{
+    margin-left: 90px;
+    padding-top: 20px;
+}
+#tododescription{
+    width: 200px;
+    padding: 8px;
+    border-radius: 30px;
+    margin-top: 5px;
+    border: 2px solid  #367BF5;
+    background-color: #C481FF;
+    resize: none;
+}
+#priority{
+    margin-left: 140px;
+    padding-top: 10px;
+}
+#todopriority{
+    padding: 5px;
+    margin-top: 2px;
+    border: 2px solid #367BF5;
+    background-color: #C481FF;
+}
+#todosave{
+    padding: 7px;
+    margin-top: 5px;
+    margin-left: 165px;
+    background-color: rgb(71, 71, 222);
+    color: whitesmoke;
+}
+.d-non{
+    display: none;
+}
